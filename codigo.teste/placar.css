@@ -1,0 +1,80 @@
+body {
+  v=body {
+  font-family: Arial, sans-serif;
+  background: #0d1b2a; /* fundo azul escuro */
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.placar {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.time {
+  background: #1b4f72; /* azul */
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  color: white;
+}
+
+.time input {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background: #2e86c1;
+  color: white;
+}
+
+.pontos {
+  font-size: 60px;
+  margin: 10px 0;
+  color: white;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.mais {
+  background: #2980b9; /* azul mais claro */
+}
+
+.menos {
+  background: #1f618d; /* azul mais escuro */
+}
+
+.controle {
+  background: #154360; /* azul bem escuro */
+}
+
+.config {
+  margin-top: 20px;
+  color: white;
+}
+
+.vencedor {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #ffffff; /* branco */
+}

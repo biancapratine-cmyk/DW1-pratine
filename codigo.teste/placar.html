@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Placar Esportivo</title>
+  <link rel="stylesheet" href="placar.css">
+</head>
+<body>
+
+  <h1>🏐 Placar Esportivo</h1>
+
+  <div class="placar">
+    <div class="time">
+      <input type="text" id="nomeA" value="Time A">
+      <div class="pontos" id="pontosA">0</div>
+      <button class="mais" onclick="alterarPontos('A', 1)">+1</button>
+      <button class="menos" onclick="alterarPontos('A', -1)">-1</button>
+    </div>
+
+    <div class="time">
+      <input type="text" id="nomeB" value="Time B">
+      <div class="pontos" id="pontosB">0</div>
+      <button class="mais" onclick="alterarPontos('B', 1)">+1</button>
+      <button class="menos" onclick="alterarPontos('B', -1)">-1</button>
+    </div>
+  </div>
+
+  <div>
+    <button class="controle" onclick="resetar()">Resetar</button>
+    <button class="controle" onclick="trocarLados()">Trocar Lados</button>
+  </div>
+
+  <div class="config">
+    <label>Limite de pontos: </label>
+    <input type="number" id="limite" value="21">
+  </div>
+
+  <div class="vencedor" id="vencedor"></div>
+
+  <script src="placar.js"></script>
+</body>
+</html>
